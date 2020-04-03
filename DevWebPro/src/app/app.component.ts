@@ -8,9 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '¡HOLI! BIENVENIDO A NUESTRA APP';
   name = 'JAI, VANE Y TIVEN';
-  num1 = 2;
-  num2 = 3;
-  resultSuma: number;
   /**
    * Constructor function of the app component
    */
