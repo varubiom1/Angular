@@ -48,21 +48,14 @@
     <h1>SUMA:</h1>
     <h2>{{num1}} + {{num2}} = {{resultSuma}}</h2>
   </div>
+  <label>Number 1:</label>
+  <input type="text"  [(ngModel)]="num1">
+  <label>Number 2:</label>
+  <input type="text"  [(ngModel)]="num2">
 
   <button (click)="sumar()">
     BUTTON OK
   </button>
 
   
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-
 <router-outlet></router-outlet>

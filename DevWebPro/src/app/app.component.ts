@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '¡HOLI! BIENVENIDO A NUESTRA APP';
   name = 'JaiVaneTiven';
-  num1 =2;
-  num2 =3;
+  num1 = 2;
+  num2 = 3;
   resultSuma: number;
 
 
