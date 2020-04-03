@@ -1,14 +1,15 @@
-<div>
-<h1>Texto:</h1> 
-<h2>{{miTweet.texto}}</h2>
-<h1>Autor:</h1> 
-<h2>{{miTweet.autor}}</h2>
+<div *ngFor="let tweet of listaTweets" >
+    <h1>Texto:</h1> 
+    <h2>{{tweet.texto}}</h2>
+    <h1>Autor:</h1> 
+    <h2>{{tweet.autor}}</h2>
 </div>
 
 <div>
     <label>TEXTO:</label>
-    <input type ="text" [(ngModel)]="miTweet.texto">
+    <input type ="text" [(ngModel)]="nuevoTweet.texto">
     <label>AUTOR:</label>
-    <input type ="text" [(ngModel)]="miTweet.autor">
+    <input type ="text" [(ngModel)]="nuevoTweet.autor">
+    <button (click)="adicionarNuevoTweet()">ADD TWEET</button>
  </div> 
 
