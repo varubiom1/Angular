@@ -17,7 +17,6 @@ export class AppComponent {
 
   constructor(){
     console.log('CONSTRUCTOR...APP component created!!!');
-    console.log('RESULT SUMA:', this.resultSuma);
   }
 /**
  * function to add two numers
