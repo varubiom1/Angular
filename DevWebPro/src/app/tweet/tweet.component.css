@@ -22,3 +22,8 @@ border-radius: 15px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
  }
+ #formlabel1{
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+ }

@@ -1,26 +1,21 @@
-
 <div id=tabla1 *ngFor="let tweet of listaTweets" >
-<div id=cabtab1>
-    <h1>Autor: {{tweet.autor}}</h1>
-</div>
-<div id=cuerpotab1>
-    <h1>Tweet:</h1> 
-    <h2>{{tweet.texto}}</h2>
-</div>
-</div>
-
-<div>
-    <div>
-        <label>AUTOR:</label>
-        <input type ="text" [(ngModel)]="nuevoTweet.autor">
-    <div >
-    <label>TEXTO:</label>
-    <input type ="text" [(ngModel)]="nuevoTweet.texto">
+    <div id=cabtab1>
+        <h1>Autor: {{tweet.autor}}</h1>
     </div>
-
-    <button (click)="adicionarNuevoTweet()">ADD TWEET</button>
-
-
-
-
-
+    <div id=cuerpotab1>
+        <h1>Tweet:</h1> 
+        <h2>{{tweet.texto}}</h2>
+    </div>
+    </div>
+    
+    <div>
+        <div>
+            <label>AUTOR:</label>
+            <input type ="text" [(ngModel)]="nuevoTweet.autor">
+        <div >
+        <label>TEXTO:</label>
+        <input type ="text" [(ngModel)]="nuevoTweet.texto">
+        </div>
+    
+        <button (click)="adicionarNuevoTweet()">ADD TWEET</button>
+    
