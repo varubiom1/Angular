@@ -8,14 +8,16 @@
     </div>
     </div>
     
-    <div>
+    <div class="tweet-box">
         <div>
-            <label>AUTOR:</label>
-            <input type ="text" [(ngModel)]="nuevoTweet.autor">
-        <div >
-        <label>TEXTO:</label>
-        <input type ="text" [(ngModel)]="nuevoTweet.texto">
-        </div>
-    
+            <div>
+                <label class="label-tweet" for="">AUTOR</label>
+                <input type="text" class="input-form" [(ngModel)]="nuevoTweet.autor">
+            </div>
+            <div>
+                <label class="label-tweet" for="">MI NUEVO TWEET</label>
+                <textarea type="text" class="input-form" [(ngModel)]="nuevoTweet.texto"></textarea>
+            </div>
+            
         <button (click)="adicionarNuevoTweet()">ADD TWEET</button>
     
