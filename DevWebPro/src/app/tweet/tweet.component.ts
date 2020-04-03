@@ -33,6 +33,7 @@ export class TweetComponent implements OnInit {
    }
 
    adicionarNuevoTweet(){
+     
      this.listaTweets.push(this.nuevoTweet);
    }
 
